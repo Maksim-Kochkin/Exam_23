@@ -1,0 +1,15 @@
+﻿<Window x:Class="Поиск_общих_в_массиве.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Поиск_общих_в_массиве"
+        mc:Ignorable="d"
+        Title="Общее в массивах" Height="175" Width="800" Background="#FF3C8787">
+    <Grid>
+        <Button Content="Результат" x:Name="Result_Btn" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="98" Height="34" FontSize="16" Click="Result_Btn_Click"/>
+        <Label Content="Массив A = { 5, 544, 65, 84, -7 }; Массив B = { 5, 678, 544, 97, -9 }" x:Name="Info_Lb" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="669" Height="34" FontSize="16"/>
+        <Label Content="Результат:" x:Name="Result_Lb" HorizontalAlignment="Left" Margin="113,90,0,0" VerticalAlignment="Top" Width="669" Height="34" FontSize="16"/>
+
+    </Grid>
+</Window>
